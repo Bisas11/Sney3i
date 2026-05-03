@@ -1,0 +1,178 @@
+﻿$primary: #076ab8;
+$primary-light: #eff6ff;
+$text: #0f172a;
+$muted: #64748b;
+$border: #e2e8f0;
+
+.dashboard-container {
+  height: 100vh;
+}
+
+.dashboard-sidenav {
+  width: 272px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid $border;
+
+  .sidenav-brand {
+    display: flex;
+    align-items: center;
+    padding: 16px 18px 10px;
+    text-decoration: none;
+
+    .sidenav-logo {
+      height: 36px;
+      width: auto;
+      object-fit: contain;
+    }
+  }
+
+  .sidenav-profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 16px 12px;
+
+    .profile-avatar mat-icon {
+      font-size: 40px;
+      width: 40px;
+      height: 40px;
+      color: $primary;
+    }
+
+    .profile-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+
+      .profile-name {
+        font-size: 14px;
+        font-weight: 600;
+        color: $text;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .profile-email {
+        font-size: 12px;
+        color: $muted;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+
+  mat-divider {
+    border-color: $border;
+  }
+
+  mat-nav-list {
+    padding-top: 4px;
+
+    a[mat-list-item] {
+      color: $muted;
+      margin: 1px 8px;
+      border-radius: 10px;
+      height: 44px;
+
+      &:hover {
+        background: rgba($primary, 0.05);
+        color: $text;
+      }
+
+      &.active-link {
+        background: $primary-light;
+        color: $primary;
+        font-weight: 600;
+      }
+
+      mat-icon {
+        color: inherit;
+      }
+    }
+  }
+
+  .bottom-nav {
+    padding-bottom: 8px;
+    a[mat-list-item] {
+      color: $muted;
+      margin: 1px 8px;
+      border-radius: 10px;
+      height: 44px;
+      &:hover {
+        background: rgba($primary, 0.05);
+        color: $text;
+      }
+      mat-icon { color: inherit; }
+    }
+  }
+
+  .sidenav-spacer {
+    flex: 1;
+  }
+}
+
+.dashboard-toolbar {
+  background: #fff !important;
+  color: $text !important;
+  border-bottom: 1px solid $border;
+  box-shadow: none !important;
+
+  .toolbar-logo-link {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 2px 4px;
+    transition: opacity 0.15s;
+    cursor: pointer;
+
+    &:hover { opacity: 0.85; }
+  }
+
+  .toolbar-logo {
+    height: 32px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  .toolbar-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba($primary, 0.1);
+    border: 2px solid rgba($primary, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 4px;
+
+    mat-icon {
+      font-size: 28px;
+      width: 28px;
+      height: 28px;
+      color: $primary;
+    }
+  }
+
+  button {
+    color: $muted;
+  }
+}
+
+.content-area {
+  padding: 24px;
+  background: #f5f7f8;
+  min-height: calc(100vh - 64px);
+}

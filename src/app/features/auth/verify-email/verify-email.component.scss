@@ -1,0 +1,173 @@
+$primary: #076ab8;
+$primary-dark: #055a9a;
+$text-primary: #0f172a;
+$text-secondary: #64748b;
+$text-muted: #94a3b8;
+$border: #e2e8f0;
+
+// ── Split Layout ─────────────────────────────────────────────
+.auth-split {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+    overflow: auto;
+  }
+}
+
+// ── Brand Panel ──────────────────────────────────────────────
+.brand-panel {
+  flex: 0 0 42%;
+  background: #0c3e64;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 40px;
+  gap: 36px;
+  position: relative;
+  overflow: hidden;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.07);
+  }
+  &::before { width: 360px; height: 360px; top: -110px; right: -90px; }
+  &::after  { width: 240px; height: 240px; bottom: -80px; left: -80px; }
+
+  @media (max-width: 768px) {
+    flex: none;
+    padding: 36px 24px;
+    min-height: 210px;
+    gap: 16px;
+  }
+}
+
+.auth-brand-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+
+  .auth-logo {
+    height: 44px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+  }
+}
+
+.brand-message {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+
+  h2 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1.35;
+    letter-spacing: -0.02em;
+    margin: 0 0 12px;
+
+    @media (max-width: 768px) { font-size: 20px; }
+  }
+
+  p {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 15px;
+    line-height: 1.65;
+    margin: 0 auto;
+    max-width: 300px;
+  }
+}
+
+// ── Form Panel ───────────────────────────────────────────────
+.form-panel {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 40px;
+  background: #fff;
+  overflow-y: auto;
+
+  @media (max-width: 768px) { padding: 40px 24px; }
+}
+
+.form-box {
+  width: 100%;
+  max-width: 400px;
+}
+
+// ── State Box (centered content for verify states) ────────────
+.state-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  padding: 24px 0;
+
+  .state-icon {
+    font-size: 56px;
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+  }
+
+  strong {
+    font-size: 22px;
+    font-weight: 800;
+    color: $text-primary;
+    letter-spacing: -0.02em;
+  }
+
+  p {
+    font-size: 15px;
+    color: $text-secondary;
+    margin: 0;
+    max-width: 320px;
+    line-height: 1.65;
+  }
+
+  a.btn-link {
+    margin-top: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    padding: 0 32px;
+    background: $primary;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 4px 6px -1px rgba(7, 106, 184, 0.2);
+    transition: background 0.15s, transform 0.1s;
+
+    &:hover { background: $primary-dark; }
+    &:active { transform: scale(0.98); }
+  }
+}
+
+// ── Spinner animation ─────────────────────────────────────────
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.spin {
+  display: inline-block;
+  animation: spin 1s linear infinite;
+}

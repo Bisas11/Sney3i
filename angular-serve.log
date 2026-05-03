@@ -1,0 +1,387 @@
+
+> sney3i@0.0.0 start
+> ng serve --host 127.0.0.1 --port 4200
+
+Node.js version v23.5.0 detected.
+Odd numbered Node.js versions will not enter LTS status and should not be used for production. For more information, please see https://nodejs.org/en/about/releases/.
+- Generating browser application bundles (phase: setup)...
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+vendor.js                                       | vendor                            |   5.81 MB |
+polyfills.js                                    | polyfills                         | 252.54 kB |
+styles.css, styles.js                           | styles                            | 238.83 kB |
+main.js                                         | main                              | 150.97 kB |
+runtime.js                                      | runtime                           |  12.60 kB |
+
+| Initial Total                     |   6.45 MB
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_features_client_client_module_ts.js     | features-client-client-module     | 215.25 kB |
+src_app_features_auth_auth_module_ts.js         | features-auth-auth-module         | 209.89 kB |
+src_app_features_provider_provider_module_ts.js | features-provider-provider-module | 204.96 kB |
+src_app_features_admin_admin_module_ts.js       | features-admin-admin-module       | 201.56 kB |
+src_app_features_public_public_module_ts.js     | features-public-public-module     | 149.30 kB |
+common.js                                       | common                            |  14.39 kB |
+
+Build at: 2026-05-03T21:07:59.477Z - Hash: c849eb5bc01f1674 - Time: 17063ms
+
+** Angular Live Development Server is listening on 127.0.0.1:4200, open your browser on http://127.0.0.1:4200/ **
+
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+main.js                                         | main                              | 150.97 kB |
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_features_client_client_module_ts.js     | features-client-client-module     | 215.25 kB |
+src_app_features_auth_auth_module_ts.js         | features-auth-auth-module         | 209.89 kB |
+src_app_features_provider_provider_module_ts.js | features-provider-provider-module | 204.96 kB |
+src_app_features_public_public_module_ts.js     | features-public-public-module     | 149.30 kB |
+
+5 unchanged chunks
+
+Build at: 2026-05-03T22:04:15.739Z - Hash: b33432f8dd3dcee8 - Time: 5871ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                         | Names                         |  Raw Size
+runtime.js                                  | runtime                       |  12.60 kB |
+
+Lazy Chunk Files                            | Names                         |  Raw Size
+src_app_features_public_public_module_ts.js | features-public-public-module | 151.87 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:04:56.929Z - Hash: f9837df9c3f958a8 - Time: 1132ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                         | Names                         |  Raw Size
+runtime.js                                  | runtime                       |  12.60 kB |
+
+Lazy Chunk Files                            | Names                         |  Raw Size
+src_app_features_public_public_module_ts.js | features-public-public-module | 154.18 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:05:04.772Z - Hash: addfda59ab1ede5d - Time: 1979ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                         | Names                         |  Raw Size
+runtime.js                                  | runtime                       |  12.60 kB |
+
+Lazy Chunk Files                            | Names                         |  Raw Size
+src_app_features_public_public_module_ts.js | features-public-public-module | 154.21 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:05:08.542Z - Hash: 83423df2205b37fa - Time: 1034ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.60 kB |
+
+10 unchanged chunks
+
+Build at: 2026-05-03T22:05:19.575Z - Hash: 137b615e42c1af93 - Time: 668ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_features_provider_provider_module_ts.js | features-provider-provider-module | 208.85 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:05:35.392Z - Hash: 1a8240130da59e94 - Time: 1295ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                         | Names                         |  Raw Size
+runtime.js                                  | runtime                       |  12.60 kB |
+
+Lazy Chunk Files                            | Names                         |  Raw Size
+src_app_features_client_client_module_ts.js | features-client-client-module | 214.79 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:05:46.802Z - Hash: 771b0806093327ee - Time: 1133ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_features_provider_provider_module_ts.js | features-provider-provider-module | 210.06 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:06:13.024Z - Hash: 268eb256dc4acd83 - Time: 1595ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_features_provider_provider_module_ts.js | features-provider-provider-module | 210.06 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:06:32.812Z - Hash: 7da47b0f9b9da3b7 - Time: 1373ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_features_provider_provider_module_ts.js | features-provider-provider-module | 210.43 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:06:36.762Z - Hash: 9841693daeed5516 - Time: 1004ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_features_provider_provider_module_ts.js | features-provider-provider-module | 212.09 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:06:47.841Z - Hash: 5b98b7c0efe35e59 - Time: 1327ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_features_provider_provider_module_ts.js | features-provider-provider-module | 212.23 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:06:53.445Z - Hash: be00f9a13376cea8 - Time: 1495ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_features_provider_provider_module_ts.js | features-provider-provider-module | 212.67 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:06:57.888Z - Hash: e29920da4dc00b14 - Time: 1162ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 150.69 kB |
+runtime.js          | runtime |  12.60 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:07:07.157Z - Hash: 51a3bfaf322745aa - Time: 2434ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 150.38 kB |
+runtime.js          | runtime |  12.60 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:07:10.381Z - Hash: fbec6b56fdb54524 - Time: 1289ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_features_provider_provider_module_ts.js | features-provider-provider-module | 217.13 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:08:16.143Z - Hash: cf8bb8cc2e3d6f27 - Time: 2260ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+11 unchanged chunks
+
+Build at: 2026-05-03T22:08:17.249Z - Hash: cf8bb8cc2e3d6f27 - Time: 1001ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_features_provider_provider_module_ts.js | features-provider-provider-module | 229.03 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:08:43.167Z - Hash: d2b4f85a88d1c3c0 - Time: 1440ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_features_provider_provider_module_ts.js | features-provider-provider-module | 229.03 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:08:44.494Z - Hash: cc9dd795d3b1fbf7 - Time: 1268ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                       | Names                       |  Raw Size
+runtime.js                                | runtime                     |  12.60 kB |
+
+Lazy Chunk Files                          | Names                       |  Raw Size
+src_app_features_admin_admin_module_ts.js | features-admin-admin-module | 835.91 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:09:38.469Z - Hash: 596d9dead9cc9f18 - Time: 13679ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                       | Names                       |  Raw Size
+runtime.js                                | runtime                     |  12.60 kB |
+
+Lazy Chunk Files                          | Names                       |  Raw Size
+src_app_features_admin_admin_module_ts.js | features-admin-admin-module | 845.63 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:09:59.417Z - Hash: 56d530762646081e - Time: 2884ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                       | Names                       |  Raw Size
+runtime.js                                | runtime                     |  12.60 kB |
+
+Lazy Chunk Files                          | Names                       |  Raw Size
+src_app_features_admin_admin_module_ts.js | features-admin-admin-module | 845.63 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:10:01.075Z - Hash: 79372a11377e5f48 - Time: 1612ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                       | Names                       |  Raw Size
+runtime.js                                | runtime                     |  12.60 kB |
+
+Lazy Chunk Files                          | Names                       |  Raw Size
+src_app_features_admin_admin_module_ts.js | features-admin-admin-module | 845.63 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:10:21.018Z - Hash: c02cb77cd0c29a8c - Time: 1858ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                       | Names                       |  Raw Size
+runtime.js                                | runtime                     |  12.60 kB |
+
+Lazy Chunk Files                          | Names                       |  Raw Size
+src_app_features_admin_admin_module_ts.js | features-admin-admin-module | 845.63 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:10:42.550Z - Hash: 240dab8ef25e1082 - Time: 1332ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                       | Names                       |  Raw Size
+runtime.js                                | runtime                     |  12.60 kB |
+
+Lazy Chunk Files                          | Names                       |  Raw Size
+src_app_features_admin_admin_module_ts.js | features-admin-admin-module | 845.62 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:11:04.039Z - Hash: 8529386086fe126a - Time: 1122ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                         | Names                         |  Raw Size
+runtime.js                                  | runtime                       |  12.60 kB |
+
+Lazy Chunk Files                            | Names                         |  Raw Size
+src_app_features_client_client_module_ts.js | features-client-client-module | 214.79 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:11:09.623Z - Hash: 39ec5cfd4dd2b95a - Time: 1185ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                         | Names                         |  Raw Size
+runtime.js                                  | runtime                       |  12.60 kB |
+
+Lazy Chunk Files                            | Names                         |  Raw Size
+src_app_features_public_public_module_ts.js | features-public-public-module | 154.20 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:35:40.307Z - Hash: cc2bdf4707972850 - Time: 2654ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                         | Names                         |  Raw Size
+runtime.js                                  | runtime                       |  12.60 kB |
+
+Lazy Chunk Files                            | Names                         |  Raw Size
+src_app_features_public_public_module_ts.js | features-public-public-module | 154.19 kB |
+
+9 unchanged chunks
+
+Build at: 2026-05-03T22:35:44.487Z - Hash: b09e1d28f378c2b1 - Time: 1866ms
+
+√ Compiled successfully.

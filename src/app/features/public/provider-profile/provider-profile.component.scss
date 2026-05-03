@@ -1,0 +1,174 @@
+﻿$primary: #076ab8;
+$text: #0f172a;
+$muted: #64748b;
+$border: #e2e8f0;
+
+.profile-page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.profile-header {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+  background: #fff;
+  border: 1px solid $border;
+  border-radius: 16px;
+  padding: 28px;
+
+  .profile-avatar mat-icon {
+    font-size: 80px;
+    width: 80px;
+    height: 80px;
+    color: $primary;
+  }
+
+  .profile-info {
+    flex: 1;
+
+    h1 {
+      font-size: 26px;
+      font-weight: 700;
+      margin: 0 0 4px;
+      color: $text;
+    }
+
+    .profession {
+      color: $primary;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .meta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: $muted;
+      font-size: 14px;
+      flex-wrap: wrap;
+
+      .divider { color: $border; }
+
+      mat-icon { font-size: 16px; width: 16px; height: 16px; }
+    }
+  }
+
+  .profile-actions {
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+
+    button {
+      border-radius: 10px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .send-request-btn {
+      background: $primary !important;
+      color: #fff !important;
+      box-shadow: 0 4px 6px -1px rgba(7, 106, 184, 0.2) !important;
+      transition: background 0.15s, box-shadow 0.15s !important;
+
+      &:hover {
+        background: #055a9a !important;
+        box-shadow: 0 6px 12px -2px rgba(7, 106, 184, 0.3) !important;
+      }
+    }
+
+    .login-to-request {
+      background: $primary;
+      color: #fff;
+    }
+
+    .request-hint {
+      color: $muted;
+      font-size: 12px;
+      text-align: right;
+      max-width: 240px;
+    }
+  }
+}
+
+.tab-content {
+  padding: 24px 0;
+
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: $text;
+  }
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+
+  .info-item {
+    display: flex;
+    gap: 12px;
+    padding: 16px;
+    border: 1px solid $border;
+    border-radius: 12px;
+
+    mat-icon { color: $primary; }
+
+    strong { display: block; margin-bottom: 4px; color: $text; }
+    p { color: $muted; margin: 0; }
+  }
+}
+
+.services-list {
+  display: grid;
+  gap: 12px;
+
+  .service-item {
+    border-radius: 12px !important;
+    border: 1px solid $border;
+    box-shadow: none !important;
+
+    .service-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+
+      h4 { font-size: 16px; font-weight: 600; margin: 0; color: $text; }
+      .price { color: $primary; font-weight: 700; font-size: 16px; }
+    }
+
+    p { color: $muted; margin: 0; }
+  }
+}
+
+.review-item {
+  padding: 16px 0;
+
+  .review-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+
+    strong { color: $text; }
+    .review-date { color: #94a3b8; font-size: 13px; margin-left: auto; }
+  }
+
+  p { color: #475569; line-height: 1.6; }
+}
+
+.empty {
+  color: #94a3b8;
+  text-align: center;
+  padding: 32px;
+}
